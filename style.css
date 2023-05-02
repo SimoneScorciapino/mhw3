@@ -1,0 +1,175 @@
+@media(max-width: 500px) 
+{
+  body
+  {
+    width: 100%;
+  }
+}
+
+
+#overlay{
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+header{
+    
+    background-image: url(https://wallpaperaccess.com/full/1849421.jpg);
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+   position: relative;
+   z-index: -1;
+}
+
+ nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  padding: 20px;
+  
+
+}      
+#links {
+  
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+#links div{
+  cursor: pointer;
+  padding: 20px 20px;
+  border: 3px solid brown;
+  border-radius: 50%;
+  letter-spacing: 2px;
+  
+}
+#links div:hover{
+  background-color: white;
+  color: blue;
+}
+
+#titolo{
+  width: 780px;
+}
+
+ header h1{
+    color: rgba(1, 250, 233, 0.795);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+ }
+ body{
+  margin: 0;
+  font-family: 'Lora',serif;
+  background-color: burlywood;
+ }
+ #immagine_tonda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ #immagine_tonda img{
+  
+  height:100px;
+  border-radius: 50%;
+  margin-top: -50px;
+  z-index: 1;
+ }
+ #container{
+  margin: 0 auto 0 auto;
+  width: 66.67%;
+ }
+ .contenitore{
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+ }
+ .contenitore .testo{
+  margin-left: 40px;
+  
+}
+  
+ .contenitore .testo h1{
+  color: brown;
+ }
+ #container .numero{
+  color: brown;
+  width: 20px;
+  margin-left: -20px;
+ }
+ .testo .voto{
+  margin-bottom: 20px;
+  width: 50px;
+  color:cadetblue;
+ }
+ .testo p{
+  margin-bottom: 20px;
+ }
+ .testo img{
+  margin-bottom: 120px;
+  width: calc(100%);
+ }
+
+ footer{
+  padding: 75px;
+  background-color: black;
+  text-align: center;
+ }
+ footer address{
+  color: aliceblue;
+ }
+ footer p{
+  color: aliceblue;
+ }
+
+ 
+
+
+h1{
+  text-align: center;
+}
+
+form{
+  
+  margin-top: 75px;
+  text-align: center;
+ }
+
+#player-view{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#player-view .risultato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#player-view div span{
+  margin-top: 15px;
+  border : 4px;
+}
+
+#statistic-view{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#statistic-view .risultato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#statistic-view div span{
+  margin-top: 15px;
+  border : 4px;
+}
