@@ -1,0 +1,112 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(img/sfondo_music.jpg);
+    background-size: cover;
+    position: relative;
+  }
+
+  nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 20px;
+    
+  
+  }      
+  #links {
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+  }
+  #links a{
+    cursor: pointer;
+    padding: 20px 20px;
+    letter-spacing: 2px;
+    background-color:blanchedalmond;
+    border-radius: 25px;
+    color:brown; 
+    fill:brown;
+    text-decoration: none;
+    
+  }
+  #links a:hover{
+    background-color: white;
+    transform:scale(1.15);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #777;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#album-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#album-view .album {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#album-view img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#album-view h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#album-view span {
+    font-size: 14px;
+    color: #555;
+}
